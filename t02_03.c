@@ -17,13 +17,19 @@ int main(int _argv, char **_argc)
 
     scanf(" %c", &o.op);
 
-    if (o.op == '+') o.hasil = 0;
-    else if (o.op == '-') o.hasil = 0;
-    else if (o.op == '*') o.hasil = 1;
+    if (o.op == '+') {
+        o.hasil = 0;
+    }
+    else if (o.op == '-') {
+        o.hasil = 0;
+    }
+    else if (o.op == '*') {
+        o.hasil = 1;
+    }
 
     printf("%c\n", o.op);
 
-    while (o.count < 5) {
+    while (o.count < 4) {
         scanf("%d", &o.x);
 
         if (o.x == -1) {
@@ -34,9 +40,15 @@ int main(int _argv, char **_argc)
 
         printf("%d\n", o.x);
 
-        if (o.op == '+') o.hasil += o.x;
-        else if (o.op == '-') o.hasil -= o.x;
-        else if (o.op == '*') o.hasil *= o.x;
+        if (o.op == '+') {
+            o.hasil = o.hasil + o.x;
+        }
+        else if (o.op == '-') {
+            o.hasil = o.hasil - o.x;
+        }
+        else if (o.op == '*') {
+            o.hasil = o.hasil * o.x;
+        }
 
         printf("%d\n", o.hasil);
 
