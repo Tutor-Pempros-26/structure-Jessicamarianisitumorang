@@ -34,7 +34,8 @@ Karena penawaran yang sangat menarik, keesokan harinya Bontor kembali ke toko un
 5000
 ```
 
-Kemudian pada program akan menampilkan output berupa potongan harga yang diperoleh Bontor dan total yang akan dibayar setelah mendapatkan potongan, namun kali ini Bontor tidak memperoleh potongan karena total belanjanya kurang dari ```50.000```, maka untuk baris pertama total potongan akan digantikan dengan ```---``` (trippled dashes) dan baris kedua adalah total yang akan dibayar Bontor:
+Kemudian pada program akan menampilkan output berupa potongan harga yang diperoleh Bontor dan total y
+ang akan dibayar setelah mendapatkan potongan, namun kali ini Bontor tidak memperoleh potongan karena total belanjanya kurang dari ```50.000```, maka untuk baris pertama total potongan akan digantikan dengan ```---``` (trippled dashes) dan baris kedua adalah total yang akan dibayar Bontor:
 
 Output:
 ```bash
